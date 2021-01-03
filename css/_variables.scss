@@ -1,0 +1,15 @@
+/* font family */
+
+$font-family: "Charmonman", cursive;
+$font-size: 1.5rem;
+
+/* padding */
+$spacing: 50px;
+
+/* media query */
+
+@mixin med {
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
